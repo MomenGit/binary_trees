@@ -5,6 +5,7 @@
  * calc_tree_balance - measures the height of a binary tree
  *
  * @tree: a pointer to root node of the tree to measure the height
+ * @is_balanced: a pointer to the balance boolean
  * Return: size_t height of a binary tree, or 0 on failure
  */
 long calc_tree_balance(const binary_tree_t *tree, int *is_balanced)
